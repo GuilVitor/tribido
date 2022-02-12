@@ -1,0 +1,466 @@
+body{
+    height: 400px;
+    margin: 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+section{
+    text-align: center;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    margin-top: 130px;
+    border-radius: 20px;
+
+
+}
+.cadastro img{
+    width: 140px;
+    height: 130px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.cadastro{
+    background-color: transparent;
+    width: 350px;
+    height: 400px;
+    border-radius: 10px 0px 0px 10px;
+    
+}
+#senha{
+    width: 280px;
+    height: 25px;
+    margin: 5%;
+    text-align: center;
+    margin:5%;
+    margin-top: 20px;
+    border-radius: 5px;
+    
+}
+#email{
+    width: 280px;
+    height: 25px;
+    margin-top: 0px;
+    border-radius: 5px;
+    
+}
+#butao{
+    width: 120px;
+    height: 30px;
+    float: right;
+    margin-right: 30px;
+    border-radius: 5px;
+    background-color: rgb(12, 11, 11);
+    color: white;
+}
+#conta{
+    width: 120px;
+    height: 30px;
+    float: left;
+    margin-left: 30px;
+    border-radius: 5px;
+    background-color: rgb(12, 11, 11);
+    color: white;
+}
+#face{
+    width: 40px;
+    height: 40px;
+    float: right;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#ins{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+h1{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: auto;
+    
+    
+  }
+
+#google{
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin-top: 20px;
+    margin-right: -115px;
+}
+#imagem{
+    width: 300px;
+    height: 300px;
+    float: right;
+    margin-top: -395px;
+}
+    
+
+
+@media screen and (max-width:700px){
+    
+    body{
+        height: 400px;
+        margin: 0;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    section{
+        text-align: center;
+        width: 500px;
+        height: 570px;
+        margin: auto;
+        margin-top: 20px;
+        border-radius: 20px;
+        background-color: black;
+    
+    }
+    .cadastro img{
+        width: 140px;
+        height: 140px;
+        margin-top: 30px;
+        border-radius: 10px;
+    }
+    .cadastro{
+        background-color: transparent;
+        height: 400px;
+        border-radius: 10px 0px 0px 10px;
+        margin-left: 75px;
+
+    }
+    #senha{
+        width: 450px;
+        height: 50px;
+        margin: 0%;
+        text-align: center;
+        margin:0%;
+        margin-left: -52px;
+        margin-top: 40px;
+        border-radius: 5px;
+        
+    }
+    #email{
+        width: 450px;
+        height: 50px;
+        margin-left: -52px;
+        margin-top: 10px;
+        border-radius: 5px;
+        
+    }
+    #butao{
+        width: 160px;
+        height: 60px;
+        float: right;
+        margin-right: 0px;
+        border-radius: 5px;
+        background-color: rgb(12, 11, 11);
+        color: white;
+        margin-top: 40px;
+    }
+    #conta{
+        width: 160px;
+        height: 60px;
+        float: left;
+        margin-left: 0px;
+        border-radius: 5px;
+        background-color: rgb(12, 11, 11);
+        color: white;
+        margin-top: 40px;
+
+    }
+    #face{
+        width: 40px;
+        height: 40px;
+        float: right;
+        text-align: center;
+        margin: auto;
+        margin-top: 160px;
+        margin-left: -10px;
+        transform: translateX(5px);
+    }
+    
+    #ins{
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        margin: auto;
+        margin-top: 60px;
+        margin-left: 30px;
+    }
+    h1{
+        width: 150px;
+        height: 150px;
+        text-align: center;
+        margin: auto;
+        
+        
+      }
+    
+    #google{
+        width: 40px;
+        height: 40px;
+        float: right;
+        margin-top: 60px;
+        margin-right: -115px;
+    }
+    #imagem{
+        width: 120px;
+        height: 120px;
+        float: right;
+        margin-top: -460px;
+        margin-left: 200px;
+        transform: translateX(-70px);
+    } 
+}
+
+
+
+
+
+@media screen and (mx-width:371px){
+    body{
+        height: 400px;
+        margin: 0;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    section{
+        text-align: center;
+        width: 350px;
+        height: 0px;
+        margin: auto;
+        margin-top: 20px;
+        border-radius: 20px;
+        margin-left: 20px;
+    
+    }
+    .cadastro img{
+        width: 100%;
+        height: 130px;
+        margin-top: 30px;
+        border-radius: 10px;
+    }
+    .cadastro{
+        background-color: transparent;
+        width: 350px;
+        height: 400px;
+        border-radius: 10px 0px 0px 10px;
+        margin-left: 20px;
+
+    }
+    #senha{
+        width: 280px;
+        height: 40px;
+        margin: 5%;
+        text-align: center;
+        margin:5%;
+        margin-top: 30px;
+        border-radius: 5px;
+        
+    }
+    #email{
+        width: 280px;
+        height: 40px;
+        margin-top: 10px;
+        border-radius: 5px;
+        
+    }
+    #butao{
+        width: 120px;
+        height: 40px;
+        float: right;
+        margin-right: 30px;
+        border-radius: 5px;
+        background-color: rgb(12, 11, 11);
+        color: white;
+        margin-top: 30px;
+    }
+    #conta{
+        width: 120px;
+        height: 40px;
+        float: left;
+        margin-left: 30px;
+        border-radius: 5px;
+        background-color: rgb(12, 11, 11);
+        color: white;
+        margin-top: 30px;
+
+    }
+    #face{
+        width: 40px;
+        height: 40px;
+        float: right;
+        text-align: center;
+        margin: auto;
+        margin-top: 110px;
+        margin-left: -10px;
+    }
+    
+    #ins{
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        margin: auto;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    h1{
+        width: 150px;
+        height: 150px;
+        text-align: center;
+        margin: auto;
+        
+        
+     }
+    
+    #google{
+        width: 40px;
+        height: 40px;
+        float: right;
+        margin-top: 40px;
+        margin-right: -115px;
+    }
+    #imagem{
+        width: 120px;
+        height: 120px;
+        float: right;
+        margin-top: -395px;
+        margin-left: 200px;
+        transform: translateX(10px);
+    } 
+}
+
+@media screen and (max-widt:425px){
+    body{
+        height: 400px;
+        margin: 0;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    section{
+        text-align: center;
+        width: 350px;
+        height: 570px;
+        margin: auto;
+        margin-top: 20px;
+        border-radius: 20px;
+        margin-left: 10px;
+
+    
+    }
+    .cadastro img{
+        width: 140px;
+        height: 130px;
+        margin-top: 30px;
+        border-radius: 10px;
+    }
+    .cadastro{
+        background-color: transparent;
+        width: 350px;
+        height: 400px;
+        border-radius: 10px 0px 0px 10px;
+        margin-left: 10px;
+
+    }
+    #senha{
+        width: 280px;
+        height: 40px;
+        margin: 5%;
+        text-align: center;
+        margin:5%;
+        margin-top: 30px;
+        border-radius: 5px;
+        
+    }
+    #email{
+        width: 280px;
+        height: 40px;
+        margin-top: 10px;
+        border-radius: 5px;
+        
+    }
+    #butao{
+        width: 120px;
+        height: 40px;
+        float: right;
+        margin-right: 30px;
+        border-radius: 5px;
+        background-color: rgb(12, 11, 11);
+        color: white;
+        margin-top: 30px;
+    }
+    #conta{
+        width: 120px;
+        height: 40px;
+        float: left;
+        margin-left: 30px;
+        border-radius: 5px;
+        background-color: rgb(12, 11, 11);
+        color: white;
+        margin-top: 30px;
+
+    }
+    #face{
+        width: 40px;
+        height: 40px;
+        float: right;
+        text-align: center;
+        margin: auto;
+        margin-top: 110px;
+        margin-left: -10px;
+    }
+    
+    #ins{
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        margin: auto;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    h1{
+        width: 150px;
+        height: 150px;
+        text-align: center;
+        margin: auto;
+        
+        
+      }
+    
+    #google{
+        width: 40px;
+        height: 40px;
+        float: right;
+        margin-top: 40px;
+        margin-right: -115px;
+    }
+    #imagem{
+        width: 120px;
+        height: 120px;
+        float: right;
+        margin-top: -320px;
+        transform: translateX(-50px);
+    } 
+}
+@media screen and (min-width:701px) {
+  section{
+    box-shadow: 0px 0px 0px 0.5px white;
+
+  }
+}
